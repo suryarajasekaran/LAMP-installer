@@ -21,7 +21,7 @@ find /var/www -type d -exec sudo chmod 2775 {} \;
 find /var/www -type f -exec sudo chmod 0664 {} \;
 
 #Create a PHP file in the Apache document root
-[ec2-user ~]$ echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
 
 #mySQL 
 sudo service mysqld start
