@@ -36,9 +36,9 @@ sudo yum install php70-mbstring.x86_64 php70-zip.x86_64 -y
 sudo service httpd restart
 
 #Navigate to the Apache document root at /var/www/html
-#cd /var/www/html
+cd /var/www/html
 
-#wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
-#tar -xvzf phpMyAdmin-latest-all-languages.tar.gz
-#mv phpMyAdmin-4.7.5-all-languages phpMyAdmin
-#sudo service mysqld start
+wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
+tar -xvzf phpMyAdmin-latest-all-languages.tar.gz
+mv phpMyAdmin-4.7.7-all-languages phpMyAdmin
+sudo service mysqld start
